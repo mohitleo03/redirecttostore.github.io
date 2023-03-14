@@ -1,19 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="./assets/stylesheets/index.css">
-</head>
+    <link rel="stylesheet" href="./assets/stylesheets/index.css" />
+  </head>
 
-<body>
-    <div id="mydiv"></div>
-    <button onclick="openPlayStore()" >Play Store</button>
-    <button onclick="openAppStore()" >App Store</button>
-</body>
-<script src="./assets/javascript/index.js"></script>
-
+  <body>
+    <div id="container">
+      <h2>
+        Our mobile application is available on Android and IOS. click on button
+        to install.
+      </h2>
+      <div id="btn-container">
+        <button id="light-bg-color" class="btn" onclick="openPlayStore()">
+          Play Store
+        </button>
+        <hr>
+        <button id="dark-bg-color" class="btn" onclick="openAppStore()">
+          App Store
+        </button>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/javascript/index.js"></script>
 </html>

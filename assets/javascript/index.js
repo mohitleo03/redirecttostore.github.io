@@ -20,7 +20,5 @@ function init(){
     }else{
         
     }
-    console.log(window.navigator.userAgent);
-    document.getElementById('mydiv').innerHTML = window.navigator.userAgent
 }
 init();
