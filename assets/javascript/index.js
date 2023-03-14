@@ -7,5 +7,6 @@ function openAppStore(){
 }
 function init(){
     console.log(window.navigator.userAgent);
+    document.getElementById('mydiv').innerHTML = window.navigator.userAgent
 }
 init();
