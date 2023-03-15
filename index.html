@@ -6,21 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="./assets/stylesheets/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
   </head>
 
   <body>
     <div id="container">
-      <h2>
-        Our mobile application is available on Android and IOS. click on button
-        to install.
+      <img src="./assets/images/yourbooks_logo_small.jpg" alt="" height="250" />
+      <h2 id="container">
+        <div>
+          Our mobile application is available for both Android and iOS devices.
+        </div>
+        <div>Click the button below to install and start using it today.</div>
       </h2>
       <div id="btn-container">
         <button id="light-bg-color" class="btn" onclick="openPlayStore()">
-          Play Store
+          <i class="fa-brands fa-google-play fa-2xl"></i> Play Store
         </button>
-        <hr>
+        <hr />
         <button id="dark-bg-color" class="btn" onclick="openAppStore()">
-          App Store
+          <i class="fa-brands fa-app-store-ios fa-2xl"></i> App Store
         </button>
       </div>
     </div>
